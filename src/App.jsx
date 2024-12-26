@@ -11,10 +11,10 @@ import AuthPage from './components/Login'
 import { AuthProvider } from './components/AuthContext'
 import RestaurantsPage from './components/RestaurantsPage'
 import RestaurantDetailPage from './components/RestaurantDetailPage'
-import PizzaPage from './components/PizzaPAge'
 import CoffeePage from './components/CoffeePage'
 import DessertsPage from './components/DessetPage'
 import HealthyOptionsPage from './components/HealthyFoods'
+import PizzaPage from './components/PizzeriaPage'
 
 const router = createBrowserRouter([
   {
