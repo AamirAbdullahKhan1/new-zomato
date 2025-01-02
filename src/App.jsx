@@ -15,6 +15,7 @@ import CoffeePage from './components/CoffeePage'
 import DessertsPage from './components/DessetPage'
 import HealthyOptionsPage from './components/HealthyFoods'
 import PizzaPage from './components/PizzeriaPage'
+import FeaturedRestaurantDetailPage from './components/FeaturedRestaurantDetailPage'
 
 const router = createBrowserRouter([
   {
@@ -102,6 +103,17 @@ const router = createBrowserRouter([
       <>
       <Header/>
       <RestaurantDetailPage/>
+      <Footer/>
+      </>
+    )
+  },
+
+  {
+    path: '/featured-restaurant/:id',
+    element: (
+      <>
+      <Header/>
+      <FeaturedRestaurantDetailPage />
       <Footer/>
       </>
     )
